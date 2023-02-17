@@ -1,0 +1,133 @@
+/* 1. Element Selector */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(0, 183, 255);
+  color: #333;
+  font-size: 16px;
+  }
+  
+  /* Layout and Animation Styles /
+  / 2. Class Selector */
+  div.wrapper {
+  background-color: #ffdba4f7;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px;
+  animation: fadeIn 5s;
+  }
+  
+  @keyframes fadeIn {
+  from {
+  opacity: 0.5;
+  }
+  to {
+  opacity: 1;
+  }
+  }
+  
+  /* Styles for h1 /
+  / Combinator Selector */
+  header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  background-color: #fff;
+  }
+  
+  /* Styles for h2 */
+  main h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  }
+  
+  /* Styles for h3 */
+  main h3 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  text-align: center;
+  }
+  
+  /* Styles for p */
+  main p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  }
+  
+  /* Styles for footer */
+  footer p {
+  font-size: 0.5rem;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  }
+  
+  /* Styles for img */
+  main img {
+  border-radius: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  margin-top: 20px;
+  filter: brightness(1) contrast(1);
+  }
+  
+  /* Styles for bullet points in list */
+  h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  }
+  
+  /* 3. ID Selector */
+  #intro {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  /* 4. Attribute Selector */
+  a[target="_blank"] {
+  color: #fff;
+  }
+  
+  /* 5. Pseudo-class Selector */
+  a:hover {
+  text-decoration: underline;
+  }
+  
+  /* 6. Pseudo-element Selector */
+  main p::first-letter {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #333;
+  }
+  
+  /* Style for list items */
+  ul li {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.5;
+  margin-bottom: 5px;
+  }
+  
+  /* Bold every other list item */
+  ul li:nth-child(odd) {
+  font-weight: 700;
+  }
+  
+  
+  
+  
+  
